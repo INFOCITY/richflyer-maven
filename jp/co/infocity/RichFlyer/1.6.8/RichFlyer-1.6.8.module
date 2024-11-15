@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.co.infocity",
+    "module": "RichFlyer",
+    "version": "1.6.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "RichFlyer-1.6.8.aar",
+          "url": "RichFlyer-1.6.8.aar",
+          "size": 134353,
+          "sha512": "546a6b900dc855a873cec5473ffe55a05393c610e5c2b5e456c48d551537fd4bd539f06d2f0edbdb56eaf7dcacb3f9a65a756138ba0a3544c6244de1c7e5fd29",
+          "sha256": "b2a5296a832d6a7b265f7c39cca3f19d40cc56ba54b1166aa562fa9346645280",
+          "sha1": "6f825a1a625a0b6ca7f0b5a491e1d0b9666c2974",
+          "md5": "bd0b75261b497330fc77695d10b51993"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.media",
+          "module": "media",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "RichFlyer-1.6.8.aar",
+          "url": "RichFlyer-1.6.8.aar",
+          "size": 134353,
+          "sha512": "546a6b900dc855a873cec5473ffe55a05393c610e5c2b5e456c48d551537fd4bd539f06d2f0edbdb56eaf7dcacb3f9a65a756138ba0a3544c6244de1c7e5fd29",
+          "sha256": "b2a5296a832d6a7b265f7c39cca3f19d40cc56ba54b1166aa562fa9346645280",
+          "sha1": "6f825a1a625a0b6ca7f0b5a491e1d0b9666c2974",
+          "md5": "bd0b75261b497330fc77695d10b51993"
+        }
+      ]
+    }
+  ]
+}
